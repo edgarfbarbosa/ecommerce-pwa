@@ -1,0 +1,9 @@
+{
+  "name": "ecommerce-pwa",
+  "short_name": "ecommerce-pwa",
+  "description" : "Desenvolvimento de um Progressive Web App (PWA) para e-commerce, focado em responsividade, acessibilidade e engajamento.",
+  "display": "standalone",
+  "start_url": "/",
+  "background_color": "#F5F5F5",
+  "theme_color": "#0A0A0A"
+}
