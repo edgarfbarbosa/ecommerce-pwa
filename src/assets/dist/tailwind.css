@@ -570,12 +570,24 @@ html, body {
   display: flex;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
+.h-\[calc\(100vh-64px\)\] {
+  height: calc(100vh - 64px);
+}
+
 .w-80 {
   width: 20rem;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .flex-row {
@@ -590,6 +602,10 @@ html, body {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -602,14 +618,29 @@ html, body {
   gap: 1rem;
 }
 
-.bg-background {
-  --tw-bg-opacity: 1;
-  background-color: rgb(217 219 233 / var(--tw-bg-opacity));
+.rounded-full {
+  border-radius: 9999px;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.bg-background {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+}
+
+.bg-gray-400\/40 {
+  background-color: rgb(156 163 175 / 0.4);
+}
+
+.bg-hero-mobile {
+  background-image: url('/src/assets/img/hero/hero-mobile.jpg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .px-2 {
@@ -617,14 +648,18 @@ html, body {
   padding-right: 0.5rem;
 }
 
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .pb-3 {
@@ -635,13 +670,18 @@ html, body {
   padding-top: 1.5rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
-.italic {
-  font-style: italic;
+.uppercase {
+  text-transform: uppercase;
 }
 
 .text-body {
@@ -652,4 +692,10 @@ html, body {
 .text-title {
   --tw-text-opacity: 1;
   color: rgb(10 10 10 / var(--tw-text-opacity));
+}
+
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }

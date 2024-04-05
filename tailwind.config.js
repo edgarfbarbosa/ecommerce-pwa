@@ -4,9 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'background': '#D9DBE9',
+        'background': '#F5F5F5',
         'body': '#1F1F1F',
-        'title': '#0A0A0A'
+        'title': '#0A0A0A',
+      },
+      backgroundImage: {
+        'hero-mobile': "url('/src/assets/img/hero/hero-mobile.jpg')",
       }
     },
   },
