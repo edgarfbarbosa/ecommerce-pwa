@@ -18,7 +18,7 @@
   
   <div class="flex flex-col items-center justify-center bg-background text-body w-full">
     
-    <header>
+    <header class="h-16">
       <nav class="flex flex-row items-center justify-between w-80 px-2 pt-6 pb-3">
         <button title="Open menu" aria-label="Open menu">
           <i class="bi bi-list"></i>
@@ -36,7 +36,13 @@
     </header>
     
     <main>
-      <section></section>
+      <section class="bg-hero-mobile bg-cover bg-no-repeat h-[calc(100vh-64px)] w-screen flex flex-col items-center justify-end">
+        <div class="pb-10">
+          <button title="Discover more" aria-label="Discover more" class="bg-gray-400/40 backdrop-blur-sm px-8 py-2 rounded-full text-title uppercase text-2xl">
+            Discover more
+          </button>
+        </div>
+      </section>
     </main>
     
   </div>
