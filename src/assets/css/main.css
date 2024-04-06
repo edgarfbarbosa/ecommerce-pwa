@@ -10,7 +10,8 @@
   }
   
   html, body {
-    font-family: "IBM Plex Sans", sans-serif;
+    color: #212222;
+    font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
     font-style: normal;
   }
